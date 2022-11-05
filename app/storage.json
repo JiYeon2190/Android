@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "215597040384",
+    "project_id": "opencv-f7f23",
+    "storage_bucket": "opencv-f7f23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215597040384:android:ae94b21dd2d909d523e9e5",
+        "android_client_info": {
+          "package_name": "com.example.app2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215597040384-9rjc82a17bq5an7ebdornui9v4gsi54h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI2IiC1y9TtokA5Yi2jMWreeZKAqnx1Ic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215597040384-9rjc82a17bq5an7ebdornui9v4gsi54h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

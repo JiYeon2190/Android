@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/rectangle_4026_ek7"
+        android:layout_width="411dp"
+        android:layout_height="750dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/rectangle_4026_ek7_shape" />
+
+    <View
+        android:id="@+id/rectangle_12_ek1"
+        android:layout_width="411dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/rectangle_12_ek1_shape" />
+
+    <TextView
+        android:id="@+id/_____ek6"
+        android:layout_width="75dp"
+        android:layout_height="37dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginLeft="167dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="이미지"
+        android:textColor="@color/rectangle_159_color"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <!--마이페이지 버튼-->
+    <RelativeLayout
+        android:id="@+id/ic_twotone_man_2_ek1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp">
+
+    </RelativeLayout>
+
+    <!--알림 버튼-->
+    <RelativeLayout
+        android:id="@+id/heroicons_solid_bell_ek1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="360dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="30dp">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/frame_251_ek3"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/back"
+            android:scaleType="centerInside"
+            android:background="@drawable/round_button">
+        </ImageButton>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="410dp"
+        android:layout_height="305dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="250dp" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="저장"
+        android:textColor="#fff"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="@color/rectangle_2_ek1_color"/>
+
+</RelativeLayout>

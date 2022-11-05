@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 2_login colors -->
+
+	<color name="colorPrimary">#008577</color>
+	<color name="colorPrimaryDark">#00574B</color>
+	<color name="colorAccent">#D81B60</color>
+	<color name="purple_200">#FFBB86FC</color>
+	<color name="purple_500">#FF6200EE</color>
+	<color name="purple_700">#FF3700B3</color>
+	<color name="teal_200">#FF03DAC5</color>
+	<color name="teal_700">#FF018786</color>
+	<color name="black">#FF000000</color>
+	<color name="white">#FFFFFFFF</color>
+
+	<color name="_12_30_color">#000000</color>
+	<color name="rectangle_159_color">#FFFFFF</color>
+	<color name="your_id_color">#AED2FD</color>
+	<color name="rectangle_2_color">#3892FF</color>
+	<color name="________color">#222222</color>
+	<color name="rectangle_217_color">#EDF4FE</color>
+	<color name="_____ek1_color">#73A8E7</color>
+	<color name="your_id_ek1_color">#DEBFBC</color>
+	<color name="rectangle_2_ek1_color">#DF7D76</color>
+	<color name="rectangle_217_ek1_color">#F7ECEB</color>
+	<color name="ellipse_1_color">#F9F9F9</color>
+	<color name="ellipse_79_color">#FF5151</color>
+	<color name="____color">#333333</color>
+	<color name="rectangle_4014_color">#F5D985</color>
+	<color name="rectangle_4015_color">#8D9F84</color>
+	<color name="rectangle_4041_color">#D9D9D9</color>
+	<color name="_bg__main_ek2_color">#F2F2F2</color>
+	<color name="_______________________________________________________________________________________________________color">#828282</color>
+	<color name="____ek5_color">#BDBDBD</color>
+	<color name="rectangle_4025_color">#ECF4FD</color>
+	<color name="ellipse_73_color">#B4D6FF</color>
+	<color name="rectangle_41_ek2_color">#ffffff</color>
+	<color name="rectangle_4027_ek2_color">#F7F9FC</color>
+	<color name="_0_color">#8E9F85</color>
+	<color name="rectangle_4038_color">#B3D5FF</color>
+	<color name="rectangle_4041_ek2_color">#EFF6FF</color>
+	<color name="____ek11_color">#E7C3C0</color>
+	<color name="rectangle_4027_ek3_color">#FBF9F9</color>
+	<color name="rectangle_4038_ek1_color">#F4D1CE</color>
+	<color name="id_color">#4F4F4F</color>
+</resources>

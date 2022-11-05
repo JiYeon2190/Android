@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<RelativeLayout android:id="@+id/login"
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<RelativeLayout android:id="@+id/page_login_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+
+				<View
+					android:id="@+id/_bg__login_ek2"
+					android:layout_width="430dp"
+					android:layout_height="900dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__login_ek2_shape" />
+
+				<Button
+					android:id="@+id/loginBtn"
+					android:layout_width="341dp"
+					android:layout_height="49dp"
+					android:layout_marginStart="35dp"
+					android:layout_marginTop="530dp"
+					android:background="@drawable/rectangle_2_ek1_shape"
+					android:text="로그인" />
+
+				<EditText
+					android:id="@+id/passwd"
+					android:layout_width="341dp"
+					android:layout_height="49dp"
+					android:layout_marginStart="35dp"
+					android:layout_marginTop="460dp"
+					android:background="@drawable/rectangle_160_ek1_shape"
+					android:hint="@string/your_password_ek1_string"
+					android:inputType="textPassword"
+					android:paddingStart="10dp"
+					android:textColor="@color/your_id_ek1_color"
+					android:textSize="14sp" />
+
+			</RelativeLayout>
+
+			<ImageView
+				android:id="@+id/ibom_logo"
+				android:layout_width="300dp"
+				android:layout_height="400dp"
+				android:src="@drawable/logo"
+				android:layout_marginStart="60dp"
+				android:layout_marginTop="55dp"/>
+
+			<!--로그인-->
+			<EditText
+				android:id="@+id/id"
+				android:layout_width="341dp"
+				android:layout_height="49dp"
+				android:layout_marginStart="35dp"
+				android:layout_marginTop="400dp"
+				android:background="@drawable/rectangle_159_ek1_shape"
+				android:paddingStart="10dp"
+				android:hint="@string/your_id_ek1_string"
+				android:textColor="@color/your_id_ek1_color"
+				android:textSize="14sp" />
+
+			<TextView
+				android:id="@+id/joinBtn"
+				android:layout_width="69dp"
+				android:layout_height="24dp"
+				android:layout_gravity="center_horizontal|center"
+				android:layout_marginStart="40dp"
+				android:layout_marginTop="590dp"
+				android:gravity="center"
+				android:text="회원가입"
+				android:textColor="@color/________color"
+				android:textSize="12sp"
+				android:clickable="true"
+				android:focusable="true"/>
+
+			<TextView
+				android:id="@+id/________ek3"
+				android:layout_width="69dp"
+				android:layout_height="24dp"
+				android:layout_gravity="center_horizontal|center"
+				android:layout_marginLeft="210dp"
+				android:layout_marginTop="590dp"
+				android:gravity="center"
+				android:text="아이디 찾기"
+				android:textColor="@color/________color"
+				android:textSize="12sp" />
+
+			<TextView
+				android:id="@+id/_________ek1"
+				android:layout_width="80dp"
+				android:layout_height="24dp"
+				android:layout_gravity="center_horizontal|center"
+				android:layout_marginLeft="290dp"
+				android:layout_marginTop="590dp"
+				android:gravity="center"
+				android:text="비밀번호 찾기"
+				android:textColor="@color/________color"
+				android:textSize="12sp" />
+
+				<TextView
+					android:id="@+id/_____ek3"
+					android:layout_width="87dp"
+					android:layout_height="45dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="158dp"
+					android:layout_marginTop="70dp"
+					android:gravity="center"
+					android:text="아이봄"
+					android:textColor="@color/rectangle_2_ek1_color"
+					android:textSize="24sp"
+					android:textStyle="bold" />
+
+			</RelativeLayout>
+		</RelativeLayout>
+</RelativeLayout>

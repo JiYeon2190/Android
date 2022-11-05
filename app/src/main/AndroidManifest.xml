@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.example.app2" >
+
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+	<application
+		android:allowBackup="true"
+		android:theme="@style/AppTheme"
+		android:icon="@mipmap/ic_ibom"
+		android:roundIcon="@mipmap/ic_ibom_round"
+		android:label="@string/app_name"
+		android:supportsRtl="true"
+		android:usesCleartextTraffic="true"
+		android:requestLegacyExternalStorage="true" >
+		<activity
+		android:name=".login_activity"
+		android:configChanges="orientation|keyboardHidden|screenSize"
+		android:label="@string/app_name"
+		android:exported="true"  >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+			<activity android:name="com.example.app2.main_activity"></activity>
+			<activity android:name="com.example.app2.diary2_activity"></activity>
+			<activity android:name="com.example.app2.diary_activity"></activity>
+			<activity android:name="com.example.app2.album_activity"></activity>
+			<activity android:name="com.example.app2.graph_activity"></activity>
+			<activity android:name="com.example.app2.mypage_activity"></activity>
+			<activity android:name="com.example.app2.illuminance_activity"></activity>
+			<activity android:name="com.example.app2.formaldehyde_activity"></activity>
+			<activity android:name="com.example.app2.opencv_activity"></activity>
+			<activity android:name="com.example.app2.smile_activity"></activity>
+			<activity android:name="com.example.app2.sad_activity"></activity>
+			<activity android:name="com.example.app2.sleep_activity"></activity>
+			<activity android:name="com.example.app2.push"></activity>
+			<activity android:name="com.example.app2.diary4"></activity>
+			<activity android:name="com.example.app2.image"></activity>
+			<activity android:name="com.example.app2.image2"></activity>
+			<activity android:name="com.example.app2.image3"></activity>
+			<activity android:name="com.example.app2.image4"></activity>
+    </application>
+</manifest>
+	
+	

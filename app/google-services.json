@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1062671966929",
+    "firebase_url": "https://ibom-b80f4-default-rtdb.firebaseio.com",
+    "project_id": "ibom-b80f4",
+    "storage_bucket": "ibom-b80f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062671966929:android:699cd5182ca345ed351bf0",
+        "android_client_info": {
+          "package_name": "com.example.app2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062671966929-703vm1pa7h9njvns786di2v2s3r6bo8g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAwD779-J_fSPMrE7vmpCT5gMeIfs7JS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062671966929-703vm1pa7h9njvns786di2v2s3r6bo8g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
